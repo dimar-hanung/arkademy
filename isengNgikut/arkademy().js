@@ -12,7 +12,7 @@ bukan angka akan menampilkan error “Input harus angka!”*/
 			let _array = [];
 			let output = '';
 
-			if (isNaN(jumlahx)==false) {
+			if (isNaN(jumlahx)==true) {
 				console.log('ini bukan angka');
 				return false
 
